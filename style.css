@@ -1,6 +1,7 @@
-@font-face{
-    font-family:'digital-clock-font';
-    src: url('put_the_location_to_your_font.ttf or .otf');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 button {
@@ -18,7 +19,7 @@ button:hover {
 .screen {
     display: flex;
     justify-content: center;
-    height: 50px;
+    height: 100px;
     align-items: center;
     font-family: 'Orbitron', sans-serif;
 }
